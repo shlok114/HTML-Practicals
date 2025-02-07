@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Experiment 9</title>
+        <link href='https://fonts.googleapis.com/css?family=Yrsa' rel='stylesheet'>
+    </head>
+
+    <style>
+        body
+        {
+            background-image: url(1.jpg);
+            background-size: cover;
+            color: white;
+            font-family: 'Yrsa';
+        }
+        .container
+        {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .list
+        {
+            margin: 20px;
+            padding: 10px;
+            background-color: white;
+            color: rgba(0, 0, 0, 0.6);
+            box-shadow: 5px 10px 8px black;
+        }
+    </style>
+
+    <body>
+    
+        <center>
+        <h1>
+            Experiment 9
+        </h1>
+            <hr>
+        </center>
+
+        <div class="container">
+
+            <div class="list">
+            <h3>1. Ordered List within Unordered List</h3>
+                <ul type="square">
+                    <li>
+                        Programming Languages
+                    </li>
+                    <ol>
+                        <li>C</li>
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>Java</li>
+                        <li>React</li>
+                    </ol>
+                </ul>
+            </div>
+
+            <div class="list">
+                <h3>2. Unordered List within Ordered List</h3>
+                <ol>
+                    <li>Projects to Build Skills</li>
+                    <ul style="list-style-type:disc;">
+                        <li>Portfolio Website</li>
+                        <li>matrix Calculator</li>
+                        <li>To-Do List App</li>
+                        <li>Chatbot</li>
+                        <li>Basic Interpreter</li>
+                    </ul>
+                </ol>
+            </div>
+
+            <div class="list">
+                <h3>3. Ordered List within Ordered List</h3>
+                <ol>
+                    <li>MAANG Companies</li>
+                    <ol>
+                        <li>Meta</li>
+                        <li>Apple</li>
+                        <li>Amazon</li>
+                        <li>Netflix</li>
+                        <li>Google</li>
+                    </ol>
+                </ol>
+            </div>
+
+            <div class="list">
+                <h3>4. Unordered List within Unordered List</h3>
+                <ul>
+                    <li>Tools for a CS Student</li>
+                    <ul style="list-style-type:disc;">
+                        <li>Github</li>
+                        <li>Linux</li>
+                        <li>VS Code</li>
+                        <li>Chat-GPT</li>
+                        <li>Deepseek</li>
+                    </ul>
+                </ul>
+            </div>
+
+        </div>
+    </body>
+</html>
